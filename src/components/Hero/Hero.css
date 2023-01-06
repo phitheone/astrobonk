@@ -1,0 +1,136 @@
+.HeroSuper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 800px; */
+  background-image: url("../../images/herobg.png");
+  background-color: var(--text-focus);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-bottom: solid var(--text-main) 6px;
+
+  /* border: solid red 1px; */
+}
+
+.Herocontainer {
+  padding: 12rem 0rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: left;
+
+  width: 70%;
+  z-index: 10;
+
+  /* border: solid red 1px; */
+}
+
+.HeroBtnContainer a {
+  text-decoration: none;
+}
+.Herocontainer h1 {
+  color: var(--text-secondary);
+  font-size: 60px;
+  line-height: 63px;
+  text-shadow: 0 0 7px rgb(0, 0, 0), 0 0 15px rgb(0, 0, 0);
+
+  /* border: solid red 1px; */
+}
+
+.Herocontainer p {
+  color: var(--text-secondary);
+  text-shadow: 0 0 7px rgb(0, 0, 0), 0 0 15px rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.HeroBtnContainer {
+  display: flex;
+  flex-direction: row;
+
+  /* border: solid red 1px; */
+}
+
+.HeroBtn img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.HeroBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: var(--bg-main);
+  border: solid var(--text-main) 2px;
+  border-radius: 2rem;
+  padding: 10px 10px;
+  margin-right: 10px;
+  color: var(--text-main);
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.HeroBtn:hover {
+  background: var(--bg-secondary);
+  border: solid var(--bg-main) 2px;
+  color: var(--bg-main);
+}
+
+/*============Media Queries==============*/
+
+@media screen and (max-width: 1200px) {
+  .HeroSuper {
+    background-size: auto 100%;
+  }
+
+  .Herocontainer {
+    padding: 1rem 0rem;
+  }
+
+  .Herocontainer img {
+    height: 200px;
+  }
+
+  .Herocontainer h1 {
+    color: var(--text-secondary);
+    font-size: 40px;
+    line-height: 42px;
+    text-shadow: 0 0 7px rgb(0, 0, 0), 0 0 15px rgb(0, 0, 0);
+  }
+
+  .HeroBtnContainer {
+    display: flex;
+    flex-direction: column;
+
+    /* border: solid red 1px; */
+  }
+
+  .HeroBtn img {
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .HeroBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 320px;
+    background: var(--bg-main);
+    border: solid var(--text-main) 2px;
+    border-radius: 2rem;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    color: var(--text-main);
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+  }
+
+  .HeroBtn:hover {
+    background: var(--bg-secondary);
+    border: solid var(--bg-main) 2px;
+    color: var(--bg-main);
+  }
+}

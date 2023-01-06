@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/name/static/css/main.929c75a7.css",
-    "main.js": "/name/static/js/main.23a6f3c8.js",
-    "static/media/herobg.png": "/name/static/media/herobg.f6d83beb9ae114ab6794.png",
-    "static/media/astrodogeT2.png": "/name/static/media/astrodogeT2.e3e9f858c8eb1619cf8a.png",
-    "static/media/logoh.png": "/name/static/media/logoh.f6986f1e06eec76904a6.png",
-    "static/media/head.png": "/name/static/media/head.70f44d3d196afaacad1a.png",
-    "static/media/logotelegram.png": "/name/static/media/logotelegram.6461e6f0ac6ea95504aa.png",
-    "index.html": "/name/index.html",
-    "static/media/twitter.svg": "/name/static/media/twitter.88145f5a5efc189af7c91e0ba0dede8e.svg",
-    "main.929c75a7.css.map": "/name/static/css/main.929c75a7.css.map",
-    "main.23a6f3c8.js.map": "/name/static/js/main.23a6f3c8.js.map"
+    "main.css": "/static/css/main.91e44d5e.css",
+    "main.js": "/static/js/main.67723c82.js",
+    "static/media/herobg.png": "/static/media/herobg.f6d83beb9ae114ab6794.png",
+    "static/media/astrodogeT2.png": "/static/media/astrodogeT2.e3e9f858c8eb1619cf8a.png",
+    "static/media/logoh.png": "/static/media/logoh.f6986f1e06eec76904a6.png",
+    "static/media/head.png": "/static/media/head.70f44d3d196afaacad1a.png",
+    "static/media/logotelegram.png": "/static/media/logotelegram.6461e6f0ac6ea95504aa.png",
+    "index.html": "/index.html",
+    "static/media/twitter.svg": "/static/media/twitter.88145f5a5efc189af7c91e0ba0dede8e.svg",
+    "main.91e44d5e.css.map": "/static/css/main.91e44d5e.css.map",
+    "main.67723c82.js.map": "/static/js/main.67723c82.js.map"
   },
   "entrypoints": [
-    "static/css/main.929c75a7.css",
-    "static/js/main.23a6f3c8.js"
+    "static/css/main.91e44d5e.css",
+    "static/js/main.67723c82.js"
   ]
 }
